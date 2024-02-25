@@ -1,13 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
-    <title>GOGH - Finance</title>
-  </head>
-  <body>
-    <h1 class="text-3xl text-zinc-950-600 font-bold underline">Hello world!</h1>
-    <script src="scripts/index.js"></script>
-  </body>
+<html lang="en" class="box-border">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./output.css" rel="stylesheet" />
+  <title>GOGH - Finance</title>
+</head>
+
+<body
+  class="h-max w-screen overflow-x-hidden scrollbar-thumb-teal-500 scrollbar-w-1 scrollbar-thumb-rounded-full flex flex-col bg-zinc-950 box-border">
+  <header class="bg-black flex justify-between items-center text-white p-8 w-screen box-border">
+    <span class="self-end text-3xl font-bold text-teal-500">GOGH</span>
+    <ul class="flex gap-8 uppercase items-start">
+      <li><a href="/">home</a></li>
+      <li><a href="#explore">explore</a></li>
+      <li><a href="#resource">resources</a></li>
+      <li><a href="#create">create</a></li>
+      <li><a href="#faq">faq</a></li>
+    </ul>
+    <button class="bg-teal-500 text-xm px-4 py-1 rounded-lg content-center">
+      github
+    </button>
+  </header>
+
+  <section id="#" class=" h-full w-full grid grid-cols-2 p-10 box-border">
+    <section class="h-full flex flex-col align-bottom justify-end">
+      <h2 class="text-6xl font-bold text-white">
+        Unlock The Power of Art And Creativity With NFTs
+      </h2>
+      <p class="text-white w-3/4 flex-wrap text-wrap">
+        Imagination is the beginning of creation.
+      </p>
+      <p class="text-white w-3/4 flex-wrap text-wrap">
+        Explore your creativity and potential by being part of our ecosystem.
+        Be part of something bigger than you.
+      </p>
+      <div class="flex flex-row gap-1 mt-10">
+        <button class="bg-teal-500 text-xm px-4 py-1 rounded-lg content-center">
+          Let's do this
+        </button>
+        <div class="flex flex-row">
+          <button class="text-zinc-200 border border-teal-500 text-xm px-4 py-1 rounded-lg content-center">
+            Creators
+          </button>
+        </div>
+    </section>
+    <seciton class="flex align-middle justify-center items-center h-full">
+      <img class="bg-teal-500 border w-3/6 rounded-xl" src="../public/assets/130728-removebg-preview (1).png" alt="">
+    </seciton>
+  </section>
+  <!-- new section -->
+  <section id="explore" class="h-max text-zinc-200">
+    <div class="flex flex-col justify-center items-center gap-4 mt-10">
+      <h2 class="text-4xl text-zinc-200 font-bold">Feature</h2>
+      <div class="w-full grid grid-cols-3 p-10 gap-4 justify-center items-center align-middle">
+
+      <div class=" box-border text-wrap bg-orange-500 w-3/3 max-h-50 min-h-50 p-5 rounded-xl">
+        <h2>Maximum Security</h2>
+        <article>Your data is encrypted using state-of-the-art technologies, ensuring that it remains confidential and secure. We implement robust backup and recovery mechanisms to ensure that your data is always accessible.</article>
+      </div>
+      <div class=" box-border text-wrap bg-orange-500 w-3/3 max-h-50 min-h-50 p-5 rounded-xl">
+        <h2>Royalty Mechanism</h2>
+        <article>We implement a royalty system to ensure that creators receive a percentage of the sales whenever their NFTs are resold. This encourages creators to create more unique NFTs.</article>
+      </div>
+      <div class=" box-border text-wrap bg-orange-500 w-3/3 max-h-50 min-h-50 p-5 rounded-xl">
+        <h2>Token Minting</h2>
+        <article> This platform allows users to mint (create) their own NFTS because we provide a user-friendly interface for uploading content, setting attributes, and generating unique tokens</article>
+      </div>
+      <video class="  bg-orange-500 p-5 rounded-xl">
+          <!--
+
+          -->
+      </video>
+    </div>
+  </section>
+  <script src="scripts/index.js"></script>
+</body>
+
 </html>
