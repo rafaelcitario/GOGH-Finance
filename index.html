@@ -15,77 +15,114 @@
 </head>
 
 <body
-  class="font-nunito h-max w-screen overflow-x-hidden scrollbar-thumb-teal-500 scrollbar-w-1 scrollbar-thumb-rounded-full flex flex-col bg-zinc-950 box-border">
-  <header class="flex justify-between items-center text-white p-12 w-screen box-border">
-    <span class="self-end text-3xl font-bold text-teal-500">GOGH</span>
-    <ul class="flex gap-8 uppercase items-start">
+  class="font-nunito h-max w-screen overflow-x-hidden scrollbar-thumb-teal-500 scrollbar-w-1 scrollbar-thumb-rounded-full flex flex-col items-center bg-zinc-950 box-border">
+  <header
+    class="flex flex-col gap-5 justify-between items-center text-white p-2 sm:p-12 sm:gap-0 sm:flex-row 2xl:p-24 w-screen box-border">
+    <span
+      class="self-center font-bold text-teal-500 text-3xl sm:self-end sm:text-2xl md:text-3xl xl:text-5xl 2xl:text-7xl">GOGH</span>
+    <ul
+      class="flex text-[12px] gap-4 sm:gap-8 sm:text-xs md:gap-8 md:text-xs xl:gap-10 xl:text-2xl 2xl:gap-16 2xl:text-3xl uppercase items-start">
       <li><a class="scroll-smooth" href="#home">home</a></li>
       <li><a class="scroll-smooth" href="#explore">explore</a></li>
       <li><a class="scroll-smooth" href="#roadmap">roadmap</a></li>
       <li><a class="scroll-smooth" href="#creators">create</a></li>
       <li><a class="scroll-smooth" href="#faq">faq</a></li>
     </ul>
-    <button class="bg-teal-500 text-zinc-200 text-xm px-4 py-2 capitalize rounded-lg content-center">
+    <button
+      class="bg-teal-500 text-zinc-200 text-xs sm: xl:text-2xl 2xl:text-4xl px-4 2xl:px-8 py-2 2xl:py-4 capitalize rounded-lg content-center">
       github
     </button>
   </header>
 
-  <section id="home" class=" h-full w-full grid grid-cols-2 p-12 box-border">
-    <section class="h-full flex flex-col align-bottom justify-end">
-      <h2 class="text-6xl font-bold text-white">
+  <section id="home" class=" h-full w-5/6 grid grid-cols-2 p-2 sm:w-full sm:p-12 2xl:p-24 box-border">
+    <section
+      class="h-full flex flex-col col-span-2 align-bottom justify-center items-center py-4 px-2 sm:col-span-1 sm:justify-end">
+      <h2 class="text-start sm:text-2xl md:text-3xl xl:text-6xl 2xl:text-9xl font-bold text-white">
         Unlock The Power of Art And Creativity With NFTs
       </h2>
-      <p class="text-white w-3/4 flex-wrap text-wrap">
-        Imagination is the beginning of creation.
-      </p>
-      <p class="text-white w-3/4 flex-wrap text-wrap">
-        Explore your creativity and potential by being part of our ecosystem.
-        Be part of something bigger than you.
-      </p>
-      <div class="flex flex-row gap-1 mt-10">
-        <button class="bg-teal-500 text-zinc-200 text-xm px-4 py-2 capitalize rounded-lg content-center">
+      <div class="flex flex-col items-center sm:items-start md:mt-2 xl:mt-4 2xl:mt-6">
+        <p
+          class="text-white w-full sm:w-3/4 text-[10px] text-start sm:text-xs md:text-sm xl:text-xl 2xl:text-2xl flex-wrap text-wrap">
+          Imagination is the beginning of creation.
+        </p>
+        <p
+          class="text-white w-full sm:w-3/4 text-[10px] text-start sm:text-xs md:text-sm xl:text-xl 2xl:text-2xl flex-wrap text-wrap">
+          Explore your creativity and potential by being part of our ecosystem.
+          Be part of something bigger than you.
+        </p>
+      </div>
+      <div class="flex flex-row gap-4 self-center sm:self-start 2xl:gap-8 mt-10 2xl:mt-20">
+        <button
+          class="bg-teal-500 text-zinc-200 text-xs xl:text-2xl 2xl:text-4xl px-4 2xl:px-8 py-2 2xl:py-4  capitalize rounded-lg content-center">
           Let's do this
         </button>
-        <div class="flex flex-row">
-          <button class="text-zinc-200 border border-teal-500 text-xm px-4 py-1 rounded-lg content-center">
-            <a href="#creators">
-              Creators
-            </a>
-          </button>
-        </div>
+
+        <button
+          class="text-zinc-200 border border-teal-500 text-xs xl:text-2xl  2xl:text-4xl px-4 2xl:px-8 py-2 2xl:py-4 rounded-lg content-center">
+          <a href="#creators">
+            Creators
+          </a>
+        </button>
+      </div>
     </section>
-    <seciton class="flex align-middle justify-end items-center h-full">
-      <img class="bg-teal-500 border w-3/6 rounded-xl" src="./public/assets/130728-removebg-preview (1).png" alt="">
+    <seciton class="flex align-middle justify-center items-center h-full col-span-2 sm:col-span-1 sm:justify-end">
+      <img class="bg-teal-500 border w-2/4 sm:w-3/6 lg:w-4/6 xl:4/6 2xl:w-4/4 rounded-xl"
+        src="./public/assets/130728-removebg-preview (1).png" alt="">
     </seciton>
   </section>
   <!-- explorer section -->
   <section id="explore" class="h-max text-zinc-200">
-    <div class="flex flex-col justify-center items-center mt-10">
-      <h2 class="text-4xl text-zinc-200 font-bold">Feature</h2>
+    <div class="flex flex-col justify-center items-center mt-10 2xl:mt-20">
+      <h2 class=" text-3xl sm:text-2xl md:text-3xl xl:text-4xl 2xl:text-6xl text-zinc-200 font-bold">Feature</h2>
 
-      <div class="w-full grid  grid-cols-3 px-12 py-4 gap-4 justify-center items-center align-middle">
+      <div
+        class="w-full grid  grid-cols-3 px-12 2xl:px-24 py-4 2xl:py-8 gap-4 2xl:gap-8 justify-center items-center align-middle">
 
-        <div class="box-border text-wrap bg-teal-500 border-zinc-950 border col-span-1 min-h-60 p-8 rounded-xl">
-          <img src="./public/assets/shield.svg" alt="">
-          <h2 class="font-bold text-zinc-950 py-2">Maximum Security</h2>
-          <p class="text-sm">Your data is encrypted using state-of-the-art technologies, ensuring that it remains
+        <div
+          class="box-border text-wrap bg-transparent border-teal-500 border-4 col-span-3 sm:col-span-1 h-80 p-1 sm:p-4 sm:h-60 xl:h-72 2xl:h-96 2xl:p-8 rounded-xl">
+          <img class="sm:w-1/6 2xl:w-1/6" src="./public/assets/shield.svg" alt="">
+          <h2
+            class="font-bold text-zinc-200 text-lg my-4 sm:m-0 text-[14px] sm:py-2 sm:text-sm xl:py-3 2xl:py-4 xl:text-2xl 2xl:text-3xl">
+            Maximum
+            Security</h2>
+          <p class="sm:text-[10px] md:text-xs xl:text-xl 2xl:text-lg">Your data is encrypted using state-of-the-art
+            technologies, ensuring
+            that it
+            remains
             confidential and secure. We implement robust backup and recovery mechanisms to ensure that your data is
             always accessible.</p>
         </div>
-        <div class="box-border text-wrap bg-teal-500 border-zinc-950 border col-span-1 min-h-60 p-8 rounded-xl">
-          <img src="./public/assets/server.svg" alt="">
-          <h2 class="font-bold text-zinc-950 py-2">Royalty Mechanism</h2>
-          <p class="text-sm">We implement a royalty system to ensure that creators receive a percentage of the sales
+        <div
+          class="box-border text-wrap bg-transparent border-teal-500 border-4 col-span-3 sm:col-span-1 h-80 p-1 sm:p-4 sm:h-60 xl:h-72 2xl:h-96 2xl:p-8 rounded-xl">
+          <img class="sm:w-1/6 2xl:w-1/6" src="./public/assets/server.svg" alt="">
+          <h2
+            class="font-bold text-zinc-200 text-lg my-4 sm:m-0 sm:py-2 sm:text-sm xl:py-3 2xl:py-4 xl:text-2xl 2xl:text-3xl">
+            Royalty
+            Mechanism</h2>
+          <p class="sm:text-[10px] md:text-xs xl:text-xl 2xl:text-lg">We implement a royalty system to ensure that
+            creators
+            receive a
+            percentage of
+            the sales
             whenever their NFTs are resold. This encourages creators to create more unique NFTs.</p>
         </div>
-        <div class="box-border text-wrap bg-teal-500 border-zinc-950 border col-span-1 min-h-60 p-8 rounded-xl">
-          <img src="./public/assets/encrypt.svg" alt="">
-          <h2 class="font-bold text-zinc-950 py-2">Token Minting</h2>
-          <p class="text-sm"> This platform allows users to mint (create) their own NFTS because we provide a
+        <div
+          class="box-border text-wrap bg-transparent border-teal-500 border-4 col-span-3 sm:col-span-1 h-80 p-1 sm:p-4 sm:h-60 xl:h-72 2xl:h-96 2xl:p-8 rounded-xl">
+          <img class="sm:w-1/6 2xl:w-1/6" src="./public/assets/encrypt.svg" alt="">
+          <h2
+            class="font-bold text-zinc-200 text-lg my-4 sm:m-0 sm:py-2 sm:text-sm xl:py-3 2xl:py-4 xl:text-2xl 2xl:text-3xl">
+            Token Minting
+          </h2>
+          <p class="sm:text-[10px] md:text-xs xl:text-xl 2xl:text-lg"> This platform allows users to mint (create) their
+            own
+            NFTS
+            because
+            we provide
+            a
             user-friendly interface for uploading content, setting attributes, and generating unique tokens</p>
         </div>
-        <div class="box-border bg-zinc-200 col-span-3 min-h-fit border border-zinc-950 rounded-xl p-6">
-          <iframe class="min-w-full min-h-96  rounded-xl"
+        <div class="box-border bg-zinc-200 w-full col-span-3 min-h-fit border border-zinc-950 rounded-xl p-6 2xl:p-12">
+          <iframe class="w-full h-auto sm:h-96 2xl:min-h-[800px]  rounded-xl"
             src="https://www.youtube.com/embed/JITwwrVSteE?si=jvE6UZdhLbRxmbyP" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -96,35 +133,45 @@
 
   <!-- creators section-->
   <section id="creators" class="h-max text-zinc-200">
-    <div class="flex flex-col justify-center items-center mt-10">
+    <div class="flex flex-col justify-center items-center mt-10 2xl:mt-20">
       <div class="flex flex-col items-center">
-        <h2 class="text-4xl text-zinc-200 font-bold">Top Creators</h2>
-        <span>Have a glimpse of our top creators who stand out in our ecosystem</span>
+
+        <h2 class=" text-3xl sm:text-2xl md:text-3xl xl:text-4xl 2xl:text-6xl text-zinc-200 font-bold">Top Creators</h2>
+        <span
+          class="text-lg text-start px-12 sm:text-xs sm:mt-2 md:text-sm md:mt-4 xl:text-xl 2xl:text-3xl 2xl:mt-8 ">Have
+          a
+          glimpse of
+          our top
+          creators who stand
+          out in our
+          ecosystem</span>
       </div>
 
-      <div class="p-12 w-full grid grid-cols-3 justify-center items-center align-middle">
+      <div class="p-12 2xl:p-24 w-full grid grid-cols-3 justify-center items-center align-middle">
 
-        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+        <div class="box-border col-span-3 sm:col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
           <img class="rounded-xl h-full saturate-0 hover:saturate-200"
             src="./public/assets/Science-Life-Extension-Drug-for-Big-Dogs-Is-Getting-Closer-1330545769.webp" alt="">
-          <p>Zephyr</p>
+          <p class="sm:text-xs sm:mt-2 md:text-sm md:mt-4 xl:text-xl 2xl:text-3xl 2xl:mt-8 ">Zephyr</p>
 
         </div>
-        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+        <div class="box-border col-span-3 sm:col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
           <img class="rounded-xl h-full saturate-0 hover:saturate-200"
             src="./public/assets/essay-final-gettyimages-685469924.webp" alt="">
-          <p>Seraphina</p>
+          <p class="sm:text-xs sm:mt-2 md:text-sm md:mt-4 xl:text-xl 2xl:text-3xl 2xl:mt-8 ">Seraphina</p>
 
         </div>
-        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+        <div class="box-border col-span-3 sm:col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
           <img class="rounded-xl h-full saturate-0 hover:saturate-200" src="./public/assets/cute-dog-headshot.jpg"
             alt="">
-          <p>Atlas</p>
+          <p class="sm:text-xs sm:mt-2 md:text-sm md:mt-4 xl:text-xl 2xl:text-3xl 2xl:mt-8 ">Atlas</p>
 
         </div>
-        <div class="col-span-3 flex flex-row mx-auto">
+        <div class="col-span-3 flex flex-row mx-auto mt-4 2xl:mt-8">
 
-          <button class="bg-teal-500 text-zinc-200 text-xm px-4 py-2 capitalize rounded-lg content-center">Become a
+          <button
+            class="bg-teal-500 text-zinc-200 text-xs xl:text-2xl  2xl:text-4xl px-4 2xl:px-8 py-2 2xl:py-4 capitalize rounded-lg content-center">Become
+            a
             creator</button>
         </div>
       </div>
@@ -132,8 +179,8 @@
 
   <!-- roadmap section-->
   <section id="roadmap" class="h-max text-zinc-200">
-    <div class="flex flex-col items-center">
-      <h2 class="text-4xl text-zinc-200 font-bold">Roadmap</h2>
+    <div 2xl:mt-20 class="flex flex-col items-center">
+      <h2 class=" text-3xl sm:text-2xl md:text-3xl xl:text-4xl 2xl:text-6xl text-zinc-200 font-bold">Roadmap</h2>
     </div>
 
 
@@ -141,19 +188,21 @@
       TIMELINE
     -->
 
-    <div class="min-h-full flex justify-center p-12">
-      <div id="timeline" class="w-2/4 flex justify-center min-h-full">
+    <div class="min-h-full flex justify-end pl-12 sm:p-12">
+      <div id="timeline" class="w-3/4 relative left-4/4 flex justify-end h-full">
         <ul class="">
           <li class="relative">
-            <div class="before:absolute befeore:left-[5.5px] before:w-[1px] before:min-h-full before:bg-slate-500">
-              <img class="w-3 m-auto absolute left-[-5.5154px]" src="./public/assets/dot.svg" alt="">
+            <div
+              class="before:absolute befeore:left-[5.5px] before:w-[1px] 2xl:before:w-[4px] before:min-h-full before:bg-slate-500">
+              <img class="w-4 m-auto absolute left-[-5.5154px]" src="./public/assets/dot.svg" alt="">
             </div>
             <div class="text-sm text-gray-600 flex justify-start items-center w-3/4">
               <p
-                class="absolute flex self-center left-[-100.5px] bg-transparent border-teal-500 border px-4 py-2 rounded-lg text-zinc-200">
+                class="absolute flex self-center left-[-110.5px] 2xl:left-[-150.5px] bg-transparent border-teal-500 border text-xs px-4 py-2 2xl:px-8 2xl:py-4 rounded-lg text-zinc-200">
                 phase 1
               </p>
-              <p class="text-wrap mt-5 px-4 text-zinc-200 text-sm">
+              <p
+                class="text-wrap text-[10px] mt-5 px-4 sm:text-xs sm:mt-5 sm:px-4 2xl:mt-10 2xl:px-8 2xl:text-2xl text-zinc-200 ">
                 Gogh launches $GOG on the Tron Network.
                 Establishes $GOG social media platforms and focuses on community development.
                 List on Coinbase and Coinmarketcap
@@ -161,45 +210,51 @@
             </div>
           </li>
           <li class="relative">
-            <div class="before:absolute befeore:left-[5.5px] before:w-[1px] before:min-h-full before:bg-slate-500">
-              <img class="w-3 m-auto absolute left-[-5.5154px]" src="./public/assets/dot.svg" alt="">
+            <div
+              class="before:absolute befeore:left-[5.5px] before:w-[1px] 2xl:before:w-[4px] before:min-h-full before:bg-slate-500">
+              <img class="w-4 m-auto absolute left-[-5.5154px]" src="./public/assets/dot.svg" alt="">
             </div>
             <div class="text-sm text-gray-600 flex justify-start items-center w-3/4">
               <p
-                class="absolute flex self-center left-[-100.5px] bg-transparent border-teal-500 border px-4 py-2 rounded-lg text-zinc-200">
+                class="absolute flex self-center left-[-110.5px] 2xl:left-[-150.5px] bg-transparent border-teal-500 border text-xs px-4 py-2 2xl:px-8 2xl:py-4 rounded-lg text-zinc-200">
                 phase 2
               </p>
-              <p class="text-wrap mt-5 px-4 text-zinc-200 text-sm">
+              <p
+                class="text-wrap text-[10px] mt-5 px-4 sm:text-xs sm:mt-5 sm:px-4 2xl:mt-10 2xl:px-8 2xl:text-2xl text-zinc-200 ">
                 Release V1 of the minting platform. Strategically aims to listed on prominent CEX platforms.
                 Establish $GOG billboards in a plethora of locations
               </p>
             </div>
           </li>
           <li class="relative">
-            <div class="before:absolute befeore:left-[5.5px] before:w-[1px] before:min-h-full before:bg-slate-500">
-              <img class="w-3 m-auto absolute left-[-5.5154px]" src="./public/assets/dot.svg" alt="">
+            <div
+              class="before:absolute befeore:left-[5.5px] before:w-[1px] 2xl:before:w-[4px] before:min-h-full before:bg-slate-500">
+              <img class="w-4 m-auto absolute left-[-5.5154px]" src="./public/assets/dot.svg" alt="">
             </div>
             <div class="text-sm text-gray-600 flex justify-start items-center w-3/4">
               <p
-                class="absolute flex self-center left-[-100.5px] bg-transparent border-teal-500 border px-4 py-2 rounded-lg text-zinc-200">
+                class="absolute flex self-center left-[-110.5px] 2xl:left-[-150.5px] bg-transparent border-teal-500 border text-xs px-4 py-2 2xl:px-8 2xl:py-4 rounded-lg text-zinc-200">
                 phase 3
               </p>
-              <p class="text-wrap mt-5 px-4 text-zinc-200 text-sm">
+              <p
+                class="text-wrap text-[10px] mt-5 px-4 sm:text-xs sm:mt-5 sm:px-4 2xl:mt-10 2xl:px-8 2xl:text-2xl text-zinc-200 ">
                 Celebrity and influencers endorsement Release of the royalty mechanism and staking platform. Daily
                 jackpots including rewards for holders.
               </p>
             </div>
           </li>
           <li class="relative">
-            <div class="before:absolute befeore:left-[5.5px] before:w-[1px] before:min-h-full before:bg-slate-500">
-              <img class="w-3 m-auto absolute left-[-5.5154px]" src="./public/assets/dot.svg" alt="">
+            <div
+              class="before:absolute befeore:left-[5.5px] before:w-[1px] 2xl:before:w-[4px] before:min-h-full before:bg-slate-500">
+              <img class="w-4 m-auto absolute left-[-5.5154px]" src="./public/assets/dot.svg" alt="">
             </div>
             <div class="text-sm text-gray-600 flex justify-start items-center w-3/4">
               <p
-                class="absolute flex self-center left-[-100.5px] bg-transparent border-teal-500 border px-4 py-2 rounded-lg text-zinc-200">
+                class="absolute flex self-center left-[-110.5px] 2xl:left-[-150.5px] bg-transparent border-teal-500 border text-xs px-4 py-2 2xl:px-8 2xl:py-4 rounded-lg text-zinc-200">
                 phase 4
               </p>
-              <p class="text-wrap mt-5 px-4 text-zinc-200 ">
+              <p
+                class="text-wrap text-[10px] mt-5 px-4 sm:text-xs sm:mt-5 sm:px-4 2xl:mt-10 2xl:px-8 2xl:text-2xl text-zinc-200 ">
                 The Great $GOG burn Establishment of the ambassador program
               </p>
             </div>
@@ -211,36 +266,44 @@
 
   <!-- members section-->
   <section id="creators" class="h-max text-zinc-200">
-    <div class="flex flex-col justify-center items-center mt-10">
+    <div class="flex flex-col justify-center items-center mt-10 2xl:mt-20">
       <div class="flex flex-col items-center">
-        <h2 class="text-4xl text-zinc-200 font-bold">Team Members</h2>
-        <span>Have a glimpse of our top creators who stand out in our ecosystem</span>
+        <h2 class=" text-3xl sm:text-2xl md:text-3xl xl:text-4xl 2xl:text-6xl text-zinc-200 font-bold">Team Members</h2>
+        <span
+          class="text-lg text-start px-12 sm:text-xs sm:mt-2 md:text-sm md:mt-4 xl:text-xl 2xl:text-3xl 2xl:mt-8 ">Have
+          a
+          glimpse of
+          our top
+          creators
+          who stand
+          out in our
+          ecosystem</span>
       </div>
 
       <div class="p-12 w-full grid grid-cols-3 justify-center items-center align-middle">
 
-        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+        <div class="box-border col-span-3 sm:col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
           <img class="rounded-xl h-full saturate-0 hover:saturate-200"
             src="./public/assets/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761.webp" alt="">
-          <p>Nimbus</p>
+          <p class="sm:text-xs sm:mt-2 md:text-sm md:mt-4 xl:text-xl 2xl:text-3xl 2xl:mt-8 ">Nimbus</p>
 
         </div>
-        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+        <div class="box-border col-span-3 sm:col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
           <img class="rounded-xl h-full saturate-0 hover:saturate-200" src="./public/assets/cat-sitter-felino.webp"
             alt="">
-          <p>Oberon</p>
+          <p class="sm:text-xs sm:mt-2 md:text-sm md:mt-4 xl:text-xl 2xl:text-3xl 2xl:mt-8 ">Oberon</p>
 
         </div>
-        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+        <div class="box-border col-span-3 sm:col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
           <img class="rounded-xl h-full saturate-0 hover:saturate-200" src="./public/assets/cat-scaled.webp" alt="">
-          <p>Pixel</p>
+          <p class="sm:text-xs sm:mt-2 md:text-sm md:mt-4 xl:text-xl 2xl:text-3xl 2xl:mt-8 ">Pixel</p>
 
         </div>
         <div class="col-span-3 flex flex-row justify-end">
 
           <button class="bg-transparent rounded-full content-center self-end animate-bounce">
 
-            <a href="#home"><img src="./public/assets/up.svg" alt=""></a>
+            <a href="#home"><img class="min-w-9 max-w-24" src="./public/assets/up.svg" alt=""></a>
 
           </button>
         </div>
@@ -248,11 +311,12 @@
   </section>
 
   <footer class="flex flex-col justify-self-center items-center w-screen p-12">
-    <span class="self-center text-3xl font-bold text-teal-500"><a href="#home">GOGH</a></span>
-    <div class="flex gap-6">
-      <a href="https://github.com/rafaelcitario"><img class="w-[20px]" src="./public/assets/github.svg" alt=""></a>
-      <a href="https://linkedin.com/in/rafaelcitario"><img class="w-[20px]" src="./public/assets/linkedin.svg"
-          alt=""></a>
+    <span class="self-center text-3xl font-bold text-teal-500 xl:text-5xl 2xl:text-7xl"><a href="#home">GOGH</a></span>
+    <div class="flex gap-6 2xl:gap-12">
+      <a href="https://github.com/rafaelcitario"><img class="w-[30px] mt-2 2xl:mt-4 2xl:w-[50px]"
+          src="./public/assets/github.svg" alt=""></a>
+      <a href="https://linkedin.com/in/rafaelcitario"><img class="w-[30px] mt-2 2xl:mt-4 2xl:w-[50px]"
+          src="./public/assets/linkedin.svg" alt=""></a>
     </div>
   </footer>
 
