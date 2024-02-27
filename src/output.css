@@ -1324,6 +1324,10 @@ video {
     height: 18rem;
   }
 
+  .xl\:h-80 {
+    height: 20rem;
+  }
+
   .xl\:gap-10 {
     gap: 2.5rem;
   }
@@ -1331,6 +1335,11 @@ video {
   .xl\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .xl\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .xl\:text-2xl {
