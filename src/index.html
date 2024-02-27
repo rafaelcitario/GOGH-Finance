@@ -10,7 +10,7 @@
 
 <body
   class="h-max w-screen overflow-x-hidden scrollbar-thumb-teal-500 scrollbar-w-1 scrollbar-thumb-rounded-full flex flex-col bg-zinc-950 box-border">
-  <header class="bg-zinc-950 flex justify-between items-center text-white p-12 w-screen box-border">
+  <header class="flex justify-between items-center text-white p-12 w-screen box-border">
     <span class="self-end text-3xl font-bold text-teal-500">GOGH</span>
     <ul class="flex gap-8 uppercase items-start">
       <li><a class="scroll-smooth" href="#home">home</a></li>
@@ -54,7 +54,7 @@
   </section>
   <!-- explorer section -->
   <section id="explore" class="h-max text-zinc-200">
-    <div class="flex flex-col justify-center items-center gap-4 mt-10">
+    <div class="flex flex-col justify-center items-center mt-10">
       <h2 class="text-4xl text-zinc-200 font-bold">Feature</h2>
 
       <div class="w-full grid  grid-cols-3 px-12 py-4 gap-4 justify-center items-center align-middle">
@@ -90,27 +90,29 @@
 
   <!-- creators section-->
   <section id="creators" class="h-max text-zinc-200">
-    <div class="flex flex-col justify-center items-center gap-4 mt-10">
+    <div class="flex flex-col justify-center items-center mt-10">
       <div class="flex flex-col items-center">
         <h2 class="text-4xl text-zinc-200 font-bold">Top Creators</h2>
         <span>Have a glimpse of our top creators who stand out in our ecosystem</span>
       </div>
 
-      <div class="w-full grid  grid-cols-3 p-12 gap-4 justify-center items-center align-middle">
+      <div class="p-12 w-full grid grid-cols-3 justify-center items-center align-middle">
 
-        <div class="box-border border-zinc-950 border col-span-1 rounded-xl  flex flex-col items-center">
-          <img class="rounded-xl w-full"
+        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+          <img class="rounded-xl h-full saturate-0 hover:saturate-200"
             src="../public/assets/Science-Life-Extension-Drug-for-Big-Dogs-Is-Getting-Closer-1330545769.webp" alt="">
           <p>Zephyr</p>
 
         </div>
-        <div class="box-border border-zinc-950 border col-span-1 rounded-xl  flex flex-col items-center">
-          <img class="rounded-xl w-full" src="../public/assets/essay-final-gettyimages-685469924.webp" alt="">
+        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+          <img class="rounded-xl h-full saturate-0 hover:saturate-200"
+            src="../public/assets/essay-final-gettyimages-685469924.webp" alt="">
           <p>Seraphina</p>
 
         </div>
-        <div class="box-border border-zinc-950 border col-span-1 rounded-xl flex flex-col items-center">
-          <img class="rounded-xl w-full" src="../public/assets/cute-dog-headshot.jpg" alt="">
+        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+          <img class="rounded-xl h-full saturate-0 hover:saturate-200" src="../public/assets/cute-dog-headshot.jpg"
+            alt="">
           <p>Atlas</p>
 
         </div>
@@ -133,17 +135,19 @@
       TIMELINE
     -->
 
-    <div class="bg-zinc-950 min-h-full flex justify-center p-12">
-      <div class="w-1/2 min-h-full">
-        <ul>
+    <div class="min-h-full flex justify-center p-12">
+      <div id="timeline" class="w-2/4 flex justify-center min-h-full">
+        <ul class="">
           <li class="relative">
             <div class="before:absolute befeore:left-[5.5px] before:w-[1px] before:min-h-full before:bg-slate-500">
               <img class="w-3 m-auto absolute left-[-5.5154px]" src="../public/assets/dot.svg" alt="">
             </div>
             <div class="text-sm text-gray-600 flex justify-start items-center w-3/4">
-              <p class="absolute flex self-center left-[-100.5px] bg-teal-500 px-4 py-2 rounded-lg text-zinc-200">220022
+              <p
+                class="absolute flex self-center left-[-100.5px] bg-transparent border-teal-500 border px-4 py-2 rounded-lg text-zinc-200">
+                phase 1
               </p>
-              <p class="text-wrap mt-5 px-4 text-zinc-200">
+              <p class="text-wrap mt-5 px-4 text-zinc-200 text-sm">
                 Gogh launches $GOG on the Tron Network.
                 Establishes $GOG social media platforms and focuses on community development.
                 List on Coinbase and Coinmarketcap
@@ -155,9 +159,11 @@
               <img class="w-3 m-auto absolute left-[-5.5154px]" src="../public/assets/dot.svg" alt="">
             </div>
             <div class="text-sm text-gray-600 flex justify-start items-center w-3/4">
-              <p class="absolute flex self-center left-[-100.5px] bg-teal-500 px-4 py-2 rounded-lg text-zinc-200">220022
+              <p
+                class="absolute flex self-center left-[-100.5px] bg-transparent border-teal-500 border px-4 py-2 rounded-lg text-zinc-200">
+                phase 2
               </p>
-              <p class="text-wrap mt-5 px-4 text-zinc-200">
+              <p class="text-wrap mt-5 px-4 text-zinc-200 text-sm">
                 Release V1 of the minting platform. Strategically aims to listed on prominent CEX platforms.
                 Establish $GOG billboards in a plethora of locations
               </p>
@@ -168,9 +174,11 @@
               <img class="w-3 m-auto absolute left-[-5.5154px]" src="../public/assets/dot.svg" alt="">
             </div>
             <div class="text-sm text-gray-600 flex justify-start items-center w-3/4">
-              <p class="absolute flex self-center left-[-100.5px] bg-teal-500 px-4 py-2 rounded-lg text-zinc-200">220022
+              <p
+                class="absolute flex self-center left-[-100.5px] bg-transparent border-teal-500 border px-4 py-2 rounded-lg text-zinc-200">
+                phase 3
               </p>
-              <p class="text-wrap mt-5 px-4 text-zinc-200">
+              <p class="text-wrap mt-5 px-4 text-zinc-200 text-sm">
                 Celebrity and influencers endorsement Release of the royalty mechanism and staking platform. Daily
                 jackpots including rewards for holders.
               </p>
@@ -181,7 +189,9 @@
               <img class="w-3 m-auto absolute left-[-5.5154px]" src="../public/assets/dot.svg" alt="">
             </div>
             <div class="text-sm text-gray-600 flex justify-start items-center w-3/4">
-              <p class="absolute flex self-center left-[-100.5px] bg-teal-500 px-4 py-2 rounded-lg text-zinc-200">220022
+              <p
+                class="absolute flex self-center left-[-100.5px] bg-transparent border-teal-500 border px-4 py-2 rounded-lg text-zinc-200">
+                phase 4
               </p>
               <p class="text-wrap mt-5 px-4 text-zinc-200 ">
                 The Great $GOG burn Establishment of the ambassador program
@@ -191,8 +201,55 @@
         </ul>
       </div>
     </div>
-
   </section>
+
+  <!-- members section-->
+  <section id="creators" class="h-max text-zinc-200">
+    <div class="flex flex-col justify-center items-center mt-10">
+      <div class="flex flex-col items-center">
+        <h2 class="text-4xl text-zinc-200 font-bold">Team Members</h2>
+        <span>Have a glimpse of our top creators who stand out in our ecosystem</span>
+      </div>
+
+      <div class="p-12 w-full grid grid-cols-3 justify-center items-center align-middle">
+
+        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+          <img class="rounded-xl h-full saturate-0 hover:saturate-200"
+            src="../public/assets/gettyimages-1279899488_wide-f3860ceb0ef19643c335cb34df3fa1de166e2761.webp" alt="">
+          <p>Nimbus</p>
+
+        </div>
+        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+          <img class="rounded-xl h-full saturate-0 hover:saturate-200" src="../public/assets/cat-sitter-felino.webp"
+            alt="">
+          <p>Oberon</p>
+
+        </div>
+        <div class="box-border col-span-1 flex flex-col h-full w-3/3 items-center justify-between p-2">
+          <img class="rounded-xl h-full saturate-0 hover:saturate-200" src="../public/assets/cat-scaled.webp" alt="">
+          <p>Pixel</p>
+
+        </div>
+        <div class="col-span-3 flex flex-row justify-end">
+
+          <button class="bg-transparent rounded-full content-center self-end animate-bounce">
+
+            <a href="#home"><img src="../public/assets/up.svg" alt=""></a>
+
+          </button>
+        </div>
+      </div>
+  </section>
+
+  <footer class="flex flex-col justify-self-center items-center w-screen p-12">
+    <span class="self-center text-3xl font-bold text-teal-500"><a href="#home">GOGH</a></span>
+    <div class="flex gap-6">
+      <a href="https://github.com/rafaelcitario"><img class="w-[20px]" src="../public/assets/github.svg" alt=""></a>
+      <a href="https://linkedin.com/in/rafaelcitario"><img class="w-[20px]" src="../public/assets/linkedin.svg"
+          alt=""></a>
+    </div>
+  </footer>
+
   <script src="scripts/index.js"></script>
 </body>
 
