@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html, js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        nunito: "Nunito Sans, sans-serif",
+        jetBrains: "JetBrains Mono, monospace", 
+      },
+    },
   },
   plugins: [
     //...
